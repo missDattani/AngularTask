@@ -1,0 +1,49 @@
+
+<!-- Directives -> Attribute Directives -->
+
+<!-- ngClass -> add or remove set of css classes
+ngStyle -> add or remove set of HTML styles
+ngModel -> adds 2 way data binding to an html form element -->
+
+<!-- <div [ngClass]="isSpecial == true ? 'special' : 'notSpecial'">
+    NgClass example
+</div>
+
+<div [ngStyle]="newStyle">
+NgStyle Example
+</div> -->
+
+<!-- <label>
+    {{modelex}}
+</label> -->
+
+<!-- <input type="text" [(ngModel)]="modelex">
+
+<div>{{modelex}}</div> -->
+
+<!-- Directives -> Structural Directives -->
+
+<!-- ngIf -> Conditionally create or dispose elements
+ngFor -> help in repeating elements
+ngSwitch -> Display one element among several possibilities -->
+
+<!-- <h1 *ngIf="isShown">
+    NgIf Example
+</h1>
+<h2>
+    Demo
+</h2> -->
+
+<!-- <h3 *ngFor="let d of data">
+{{d}} 
+</h3> -->
+
+<div [ngSwitch]="num">
+<div *ngSwitchCase="1">One</div>
+<div *ngSwitchCase="2">Two</div>
+<div *ngSwitchCase="3">Three</div>
+<div *ngSwitchCase="4">Four</div>
+<div *ngSwitchCase="5">Five</div>
+<div *ngSwitchDefault>Default Case</div>
+</div>
+
